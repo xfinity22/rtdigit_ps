@@ -1,0 +1,412 @@
+
+.login_wrap{background: #fff !important;}
+a.default_link{color: #666 !important;}
+
+
+.form-group{margin: 5px 0 !important;}
+.form-group input, .form-group select, .form-group textarea{font-size: 9px !important; font-weight: bold !important;}
+.form-group .form-control, input, select, textarea{padding: 5px 10px !important; font-size: 9px !important;}
+.row .form-control, input, select, textarea{padding: 5px 10px !important; font-size: 9px !important;}
+.input-container .login{padding: 10px 40px !important; font-size: 12px !important;}
+.form-group .showcase_text_area label{font-size: 7px !important; margin: 0 !important; padding: 0 !important;}
+.btn{font-size: 10px !important; margin-top: 0 !important;}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc !important;
+  opacity: 1; /* Firefox */
+}
+
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ccc !important;
+}
+
+@media print {
+   
+   .noprint, .breadcrumbs-trail{
+      visibility: hidden;
+	  display: none;
+   }
+   .page-content-wrapper{
+	padding: 0 !important;
+	margin: 0 !important;
+	height: auto !important;
+   }
+}
+.centerdiv{
+	margin: 0 auto !important;
+	float: none !important;
+}
+
+.error{
+	color: red;
+	font-size: 10px;
+	padding: 20px 30px 0 30px;
+	font-weight: bold;
+}
+
+
+.success{
+	color: #4cceac;
+	font-size: 10px;
+	padding: 20px 30px 0 30px;
+	font-weight: bold;
+}
+
+.user-profile{
+	padding: 20px 0 0 0 !important;
+}
+
+/*
+  &__btn {
+    color: var(--greyLight);
+    pointer-events: none;
+
+    &.active {
+      color: var(--greyDark);
+      pointer-events: initial;
+
+      &:hover {
+        color: var(--primary);
+      }
+   }
+
+*/
+.logo-section{
+	margin: 0 auto !important;
+	padding: 0 !important;
+	text-align: center !important;
+}
+.logo-section img{
+	width: 240px;
+}
+
+.auth-style_1{
+	padding: 5.0em 0 !important;
+}
+ul.breadcrumbs-trail li:first-child{
+	padding-left: 0 !important;
+}
+
+ul.breadcrumbs-trail li a{
+	color: #666 !important;
+	font-size: 11px;
+}
+.pointer{
+	cursor: pointer !important;
+}
+
+ul.breadcrumbs-trail li{
+	width: auto !important;
+	float: left !important;
+	padding: 0 3px;
+	color: #666;
+	font-size: 11px;
+}
+
+ul.breadcrumbs-trail{
+	padding: 5px 0 !important;
+	margin: 0 !important;
+}
+
+.form_title{
+	font-size: 11px;
+	margin: 10px 0 !important;
+	text-transform: uppercase;
+}
+
+
+ul.navigation-menu li.nav-category-divider{
+	background: #f0f7d0 !important;
+}
+
+ul.navigation-menu{
+	background: #f0f7d0;
+}
+ul.navigation-menu li a{
+	text-transform: uppercase;
+	font-size: 10px !important;
+	font-weight: bold !important;
+	padding: 8px 0 !important;
+}
+ul.navigation-menu li{
+	padding: 0 30px !important;
+}
+
+ul.navigation-menu li, 
+ul.navigation-menu li a.default_link, 
+ul.navigation-menu li a:after, 
+ul.navigation-menu li a:before, 
+ul.navigation-menu li a:link, 
+ul.navigation-menu li a:hover, 
+ul.navigation-menu li a.active, 
+ul.navigation-menu li a:visited,
+a.active, a.default_link, 
+ul.navigation-menu li.active a,
+ul.active li a, a.link-title
+{
+	color: #000 !important;
+}
+
+ul.navigation-menu li a.disable{
+	color: #ccc !important;
+}
+
+.text-blur{
+	color: #ccc !important;
+}
+
+.t-header-content-wrapper{
+	border-bottom: 1px solid #f4f2f2;
+}
+
+.header_logo{
+	margin-top: 10px;
+	padding: 20px 20px;
+}
+
+.header_logo img{
+	width: 80% !important;
+}
+
+.digital-clock {
+  margin: 0 auto;
+  padding: 10px 10px;
+  width: 100%;
+  height: 60px;
+  color: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+  font: 35px/40px 'DIGITAL', Helvetica;
+  background: linear-gradient(90deg, #000, #555);
+}
+
+img.img-responsive{
+	width: 80% !important;
+	height: auto !important;
+}
+
+.l-h-25{line-height: 20px !important;}
+@media screen and (max-width: 800px) {
+ .t-header-brand-wrapper, .h_title, .mobile_view{
+    display: none !important;
+  }
+  
+}
+
+.breakdiv{
+	white-space: pre-wrap !important;      /* CSS3 */   
+	white-space: -moz-pre-wrap !important; /* Firefox */    
+	white-space: -pre-wrap !important;     /* Opera <7 */   
+	white-space: -o-pre-wrap !important;   /* Opera 7 */    
+	word-wrap: break-word !important;      /* IE */
+}
+
+.handbook{
+	background: #333 !important;
+	padding: 20px 20px 50px 20px;
+}
+
+
+.login_wrap{
+	background: #fff url('../img/hris_bg.png') top center no-repeat !important; 
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+	
+}
+
+.form-wrapper{
+	padding: 0 25px 25px 25px !important;
+}
+
+.form-group{margin: 8px 0 !important;}
+
+/* table tr td{
+	white-space: pre-wrap !important;      
+	white-space: -moz-pre-wrap !important; 
+	white-space: -pre-wrap !important;    
+	white-space: -o-pre-wrap !important;  
+	word-wrap: break-word !important;    
+}
+
+table tr td.nowrap{
+	white-space: normal !important;    
+	white-space: normal !important; 
+	white-space: normal !important;    
+	white-space: normal !important;   
+	word-wrap: normal !important;     
+}
+ */
+
+table.default_table thead tr th, table.default_table tbody tr td{
+	font-size: 9px !important;
+	font-weight: bold !important;
+}
+.sidebar-bottom-logo{margin-top: -110px !important;}
+.sidebar-bottom-logo img{width: 100%;}
+.bottomlogo img{width:200px !important;}
+a.nounderline{text-decoration: none !important;}
+.frmbtn, .btn-success{border: none !important; border-radius: 20px 20px !important; background-color: #1e1e1e !important; color: #ffffff; padding: 5px 20px !important;}
+.employees input, .employees select,  .employees textarea{padding: 10px 20px; font-size: 16px !important; border-radius: 20px 20px;}
+.employees label{color: #666 !important; font-size: 8px !important; font-weight: bold !important;}
+.header_title{font-size: 18px !important;}
+.text-warning{color: #a9141f !important;}
+
+.sidebar .container img.sidebar-top-logo{width: 100% !important; margin: 0 auto !important;}
+.sidebar .container{margin-top: 15px;}
+.sidebar .container .sidenav{margin-top: 20px;}
+
+.fs-14, .fs-16, .fs-13, .fs-12, .fs-15{font-size: 11px !important;}
+img.sidebar-logo{width: 100% !important; height: 60px !important;  margin: 0 auto !important;}
+img.sidebar-logo-login{width: 100% !important; height: 100% !important;  margin: 0 auto !important;}
+
+
+/* Hide content for screens smaller than 1024px (commonly tablets and mobiles) */
+@media (max-width: 1024px) {
+    html, body {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.error_message{text-transform: none !important; color: red !important; font-weight: bold;}
+/*hide chart top legend*/
+
+/* Pagination container styling */
+.paging {
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+    align-items: center;
+    gap: 4px; /* Reduce spacing */
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 8px; /* Smaller text size */
+}
+
+/* Base styles for pagination links */
+.paging a, .paging span {
+    padding: 4px 8px; /* Smaller padding for compact look */
+    border: none; /* Remove borders for link-like appearance */
+    background-color: transparent; /* Transparent background */
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: inherit;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.paging a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Active page styles */
+.paging .current {
+    font-weight: bold;
+    color: #000; /* Dark color for active page */
+    text-decoration: underline; /* Underline for emphasis */
+    pointer-events: none;
+}
+
+/* Disabled state styling */
+.paging .prev.disabled, .paging .next.disabled {
+    color: #6c757d; /* Gray for disabled state */
+    pointer-events: none;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .paging a, .paging span {
+        padding: 3px 6px; /* Even more compact for smaller screens */
+    }
+}
+
+
+
+/* Ensure all form elements inside the table stretch 100% */
+table.form tr td input,
+table.form tr td select,
+table.form tr td textarea {
+    width: 100%; /* Make the element take up 100% of the cell's width */
+    box-sizing: border-box; /* Include padding and borders in the element's total width */
+    padding: 8px; /* Add consistent padding for better appearance */
+    margin: 0; /* Remove any default margin */
+    font-size: 11px !important; /* Ensure consistent font size */
+	font-weight: bold;
+}
+
+/* Optional: Add some styling to inputs for uniformity */
+table.form tr td input[type="text"],
+table.form tr td select,
+table.form tr td textarea {
+    border: 1px solid #f4f2f2; /* Light gray border */
+    border-radius: 0; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Focus state for better UX */
+table.form tr td input:focus,
+table.form tr td select:focus,
+table.form tr td textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+    background-color: #fff; /* White background on focus */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Optional: Adjust textarea for better height */
+table.form tr td textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 50px; /* Set a reasonable minimum height */
+}
+
+
+
+/* Make all input, select, and textarea elements span 100% width */
+input,
+select,
+textarea {
+   /* width: 100%; /* Full width of the parent container */
+    box-sizing: border-box; /* Include padding and borders in total width */
+    padding: 8px; /* Consistent padding for better appearance */
+	margin: 0; /* Remove any default margin */
+    font-size: 11px !important; /* Ensure consistent font size */
+	font-weight: bold;
+}
+
+/* Optional: Add styling for uniformity */
+input[type="text"],
+select,
+textarea {
+    border: 1px solid #f4f2f2; /* Light gray border */
+    border-radius: 0; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Focus state for better UX */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+    background-color: #fff; /* White background on focus */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Optional: Adjust textarea for better height */
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 50px; /* Set a reasonable minimum height */
+}
+
+.message{
+	font-size: 10px;	
+	padding: 10px 20px 0 20px;
+}
+
+

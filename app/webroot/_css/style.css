@@ -1,0 +1,43 @@
+
+div.content{background: url(login/login_main_background.png) left repeat-x; width: 100%; height: 100%; position: absolute;}
+div.content{width: 100%; height: 100%; position: absolute; background: url(site-img/bgnoise_lg.png) left top repeat; }
+input.subtn{float: left; background: url(login/login_button.png) center no-repeat; border: none; padding: 5px; width: 100px; height: 34px; color: #fff; font-size: 10px; font-weight: bold;}
+button.subtn{float: left; background: url(login/login_button.png) center no-repeat; border: none; padding: 5px; width: 100px; height: 34px; color: #fff; font-size: 10px; font-weight: bold;}
+input.normalinputfield{width: 240px; padding: 5px 10px; background: #eaefb4; border: 1px solid #ccc;}
+div.login-content{width: 331px; height: 287px; background: url(login/login_account_background.png) center no-repeat;}
+div.login-inner-content{padding: 50px 10px 0 30px;}
+div.div-separator{padding: 10px 0;}
+div.div-separator-2{color: #fff; margin-top: 3px;}
+div.error_message{color: red; background: #fff; border: 1px solid red; padding: 10px 10px; border-top: none;}
+div.content-handler{width: 900px; min-height: 380px; background: url(login/contact.png) center no-repeat; margin: 0 auto 0 auto;}
+div.c-content{width: 100%; min-height: 380px; background: url(login/inner_login_background.png) left repeat-x; margin: 0 auto 0 auto;}
+div.inside{padding: 55px 0 0 50px;}
+div.contact{float: left; width: 400px; height: 321px; background: url(login/contact.png) center no-repeat;}
+div.clear{clear: both;}
+div.login-error-message{width: 900px; margin: 0 auto;}
+div.logo{background: red; height: 30px; border-bottom: 20px solid #fff; margin-top: 60px;}
+div.logo-inside{width: 900px; margin: 0 auto; padding: 0 0;}
+div.logo-inside img{margin-left: 107px; background: #fff;}
+
+.timein {
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:31px 25px;
+	text-decoration:none;
+}
+.timein:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.timein:active {
+	position:relative;
+	top:1px;
+}
